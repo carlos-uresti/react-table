@@ -17,7 +17,7 @@ function CustomTable() {
   };
 
   const addRow = () => {
-    const rowInputs = {
+    const newRowInputs = {
       id: "",
       first_name: "",
       last_name: "",
@@ -25,7 +25,7 @@ function CustomTable() {
       gender: "",
       ip_address: "",
     };
-    setRows([...rows, rowInputs]);
+    setRows([...rows, newRowInputs]);
   };
 
   const deleteRow = (index) => {
